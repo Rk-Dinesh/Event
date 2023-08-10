@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+ input[type="tel"] {
+            width: 300px;
+            padding: 5px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+input[type="number"]{
+    padding: 5px;
+    margin-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:100px  
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+.container1{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 25px;
+}
+
+.main-content {
+     display: table;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 10px;      
+}
+
+.main-content1 {
+    display: table;
+   margin: 0 auto;
+   padding: 5px;
+   margin-bottom: 15px;      
+}
+
+.inner-container{
+    border: 1px solid black;
+    padding: 25px;
+    padding-bottom: 10px;
+}
+
+.image {
+    padding-top: 5pxpx;
+    padding-right: 20px;
+}
+
